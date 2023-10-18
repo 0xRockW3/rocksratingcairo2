@@ -1,0 +1,10 @@
+[package]
+name = "rocksratingcairo2"
+version = "0.1.0"
+description = "Decentralized Voting System"
+
+[dependencies]
+starknet = ">=2.1.0"
+
+[[target.starknet-contract]]
+sierra = true
